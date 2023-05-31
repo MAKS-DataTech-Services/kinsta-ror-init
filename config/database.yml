@@ -87,6 +87,8 @@ test:
 #
 production:
   <<: *default
+  host: <%= ENV["DB_HOST"] %>
+  port: <%= ENV["DB_PORT"] %>
   database: maksdts_production
   username: maksdts
   password: <%= ENV["MAKSDTS_DATABASE_PASSWORD"] %>

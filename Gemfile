@@ -39,6 +39,7 @@ gem 'devise'
 # gem 'country_select'
 # gem "rqrcode", "~> 2.0"
 # gem 's3'
+gem 'active_model_serializers', '~> 0.10' # The best way to serialize models
 
 # Use Redis adapter to run Action Cable in production
 # gem "redis", "~> 4.0"

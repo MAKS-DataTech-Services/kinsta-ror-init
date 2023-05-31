@@ -13,7 +13,7 @@ class Api::V1::UsersController < Api::V1::ApiController
     layout "api_gray"
 
     def show_info
-        current_user = { id: 1, name: 'Maksdts' }
-        render json: current_user, status: :ok
+        user = User.first
+        render json: user, status: :ok
     end
 end

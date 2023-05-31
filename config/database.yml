@@ -26,7 +26,7 @@ development:
   username: maksdts
   password: maksdts
   host: 127.0.0.1
-  database: maksdts_development_2
+  database: maksdts_development
 
   # The specified database role being used to connect to postgres.
   # To create additional roles in postgres see `$ createuser --help`.
@@ -63,7 +63,7 @@ test:
   username: maksdts
   password: maksdts
   host: 127.0.0.1
-  database: maksdts_test_2
+  database: maksdts_test
 
 # As with config/credentials.yml, you never want to store sensitive information,
 # like your database password, in your source code. If your source code is

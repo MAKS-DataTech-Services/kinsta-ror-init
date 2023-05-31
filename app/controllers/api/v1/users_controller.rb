@@ -16,4 +16,13 @@ class Api::V1::UsersController < Api::V1::ApiController
         user = User.first
         render json: user, status: :ok
     end
+
+    def add_user
+        user = User.new
+        user.email = "#{SecureRandom.alphanumeric(7)}@maksdts.com"
+        user.password = SecureRandom.alphanumeric(7)
+        user.save!
+
+        render json: user, status: :ok
+    end
 end

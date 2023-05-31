@@ -8,6 +8,7 @@ Rails.application.routes.draw do
       resources :users, only: [] do
         collection do
           get 'show_info'
+          get 'add_user'
         end
       end
     end

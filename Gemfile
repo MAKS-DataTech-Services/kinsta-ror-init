@@ -29,7 +29,7 @@ gem "jbuilder"
 
 # gem "slim"
 # gem "bootstrap", "~> 5.2.0"
-# gem 'devise'
+gem 'devise'
 # gem 'petergate'
 # gem 'aws-sdk', '~> 3'
 # gem 'fog-aws'

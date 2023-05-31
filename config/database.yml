@@ -87,6 +87,7 @@ test:
 #
 production:
   <<: *default
+  url: <%= ENV["DB_URL"] %>
   host: <%= ENV["DB_HOST"] %>
   port: <%= ENV["DB_PORT"] %>
   database: maksdts_production
